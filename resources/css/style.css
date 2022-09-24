@@ -1,0 +1,207 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* background-color: #dddedf; */
+}
+body{
+    background-color: #dddedf;
+}
+li,a ,button{
+    text-decoration: none;
+    color: #161616;
+}
+
+     /* header and nav */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    border-bottom: 1.5px solid black;
+
+}
+
+.logo{
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-left: 13px;
+    transition: all 0.3s;
+}
+.logo:hover{
+transform: scale(1.5);
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    float: left;
+    padding: 0 20px;
+}
+.nav_links li a{
+    padding: 10px;
+    border-radius: 5px;
+transition: all 0.3 ease 0;
+}
+.nav_links li a:hover{
+    background-color: #8d8f91;
+    color: #ffffff;
+    }
+
+button{
+    padding: 9px 25px;
+    font-size: 18px;
+    background-color: #dddedf;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3 ease 0;
+}
+button:hover{
+    transform: scale(1.1);
+    background-color: #adadad;
+}
+.signup{
+    color: #fff;
+    background-color: #000000;
+    transition: color .2s;
+
+}
+.signup:hover{
+    color: black;
+}
+
+/* .clearfix{
+    content: " ";
+    top: 0;
+    left: 0;
+    clear: both;
+} */
+
+/*  hero section */
+.hero{
+    width: 98.5vw;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+.hero-box{
+    flex-grow: 1;
+    padding: 10px;
+    margin: 40px 0 0 60px;
+}
+.hero-box button{
+    background-color: #0000fd;
+    color: #fff;
+    margin: 10px 0 10px 10px;
+    transition: background-color 0.2s;
+    
+}
+.hero-box button:hover{
+    background-color: #03039e;
+}
+.message{
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-style: italic;
+}
+.hero-image{
+    background-image: url(img/Hero-Image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-clip: border-box;
+    flex-grow: 2;
+    width: 200px;
+    height:100%;
+    overflow: hidden;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: -21px;
+}
+.images{
+    text-align: center;
+    flex-grow: 1;
+}
+
+.images img{
+    height: 60px;
+    width: 60px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin-left: -20px;
+    margin-top: 60px;
+}
+.ellements{
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    margin-left: 30px;
+}
+.parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.element-general-box{
+    height: 196px;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid black;
+}
+.price-box{
+    background-color: #1010f1;
+    color: #fff;
+}
+.price-box head{
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+}
+.price-box .price{
+    margin-top: 10px;
+}
+
+.price span{
+    font-size: 65px;
+}
+
+.community-box
+{
+    background-color: #f1efef;
+}
+
+.mentors-box{
+    background-color: rgb(190, 187, 187);
+}
+.small-icon{
+    color: #f5ca0b;
+    font-size: 20px;
+}
+.big-icon{
+    font-size: 80px;
+    color: #000000;
+    margin-top: 60px;
+}
+
+
+
